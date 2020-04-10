@@ -52,11 +52,6 @@ Goby目前是使用Go语言开发、采用Electron+VUE前端框架的绿色版�
   … 
   持续更新中
 
-#### 贡献PoC
-
-基于实际效果的漏洞检查更有价值，在此鼓励安全人员贡献POC，以保证持续的应急响应能力。感谢您的帮助！
-
-要进行贡献，请阅读贡献准则：[https](https://golang.org/doc/contribute.html) : [//golang.org/doc/contribute.html](https://golang.org/doc/contribute.html)
 
 ### Goby社区
 
