@@ -39,18 +39,23 @@ Goby目前是使用Go语言开发、采用Electron+VUE前端框架的绿色版�
 
 - CVE-2020-2551
 - CVE-2020-2555
-- CVE-2019-10758
-- CVE-2011-3556
-- CVE-2017-5878
-- CVE-2018-1297
-- CVE-2019-19781
-- CVE-2020-10189
-- CVE-2016-4437
-- CVE-2018-1000861
-- CVE-2017-1000353
 - CVE-2020-1938 
-  … 
-  持续更新中
+- CVE-2020-10189
+- CVE-2019-10758
+- CVE-2019-19781
+- [CVE-2018-1000861](https://github.com/gobysec/GobyVuls/tree/master/Jenkins/CVE-2018-1000861)
+- [CVE-2018-7600](https://github.com/gobysec/GobyVuls/tree/master/Drupal/CVE-2018-7600)
+- CVE-2018-1297
+- [CVE-2017-5638](https://github.com/gobysec/GobyVuls/tree/master/Struts2/S2-046(CVE-2017-5638))
+- CVE-2017-5878
+- CVE-2017-1000353
+- CVE-2016-4437
+- [CVE-2016-3088](https://github.com/gobysec/GobyVuls/tree/master/ActiveMQ/CVE-2016-3088)
+- [CVE-2013-2251](https://github.com/gobysec/GobyVuls/tree/master/Struts2/S2-016(CVE-2013-2251))
+- CVE-2011-3556
+- [ThinkPHP2.1_RCE](https://github.com/gobysec/GobyVuls/tree/master/ThinkPHP/ThinkPHP2.1_RCE)
+- [ThinkPHP5_RCE](https://github.com/gobysec/GobyVuls/tree/master/ThinkPHP/ThinkPHP5_RCE)
+持续更新中… 
 
 
 ### Goby社区
@@ -60,4 +65,3 @@ Goby目前是使用Go语言开发、采用Electron+VUE前端框架的绿色版�
 1. GitHub issue: https://github.com/gobysec/Goby/issues
 2. Telegram: http://t.me/gobies
 3. 微信群: 加我的个人微信chenrong-1013，会把大家拉到Goby官方微信群。（群内福利：不定期更新内测版）
-
