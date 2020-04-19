@@ -2,12 +2,12 @@
 
 Goby是一款新的网络安全测试工具，它能够针对一个目标企业梳理最全的攻击面信息，同时能进行高效、实战化漏洞扫描，并快速的从一个验证入口点，切换到横向。我们希望能够输出更具生命力的工具，能够对标黑客的实际能力，帮助企业来有效地理解和应对网络攻击。
 
-### Demo
+### 0x001 Demo
 
 ![img](https://cn.gobies.org/static_front/img/scan.gif)
 
 
-### 下载并安装
+### 0x002 下载并安装
 
 [Goby下载地址](https://cn.gobies.org/)   [FAQ](https://gobies.org/faq.html)
 
@@ -23,7 +23,7 @@ Goby目前是使用Go语言开发、采用Electron+VUE前端框架的绿色版�
 2.  sudo chown $USER:admin bp*
 ```
 
-### 预置数据说明
+### 0x003 预置数据说明
 
 **1. 规则库** 
 超过10万种规则识别引擎，硬件覆盖范围：网络设备，物联网设备，网络安全产品，办公设备等，软件覆盖范围：CRM，CMS，EMAIL，OA系统等。
@@ -55,10 +55,11 @@ Goby目前是使用Go语言开发、采用Electron+VUE前端框架的绿色版�
 - CVE-2011-3556
 - [ThinkPHP2.1_RCE](https://github.com/gobysec/GobyVuls/tree/master/ThinkPHP/ThinkPHP2.1_RCE)
 - [ThinkPHP5_RCE](https://github.com/gobysec/GobyVuls/tree/master/ThinkPHP/ThinkPHP5_RCE)
+
 持续更新中… 
 
 
-### Goby社区
+### 0x004 Goby社区
 
 如有问题可以在 GitHub 提 issue, 也可在下方的讨论组里
 
