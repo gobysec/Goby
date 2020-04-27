@@ -37,18 +37,19 @@ Goby目前是使用Go语言开发、采用Electron+VUE前端框架的绿色版�
 **4. 漏洞及弱口令** 
 覆盖Weblogic，Tomcat等最严重漏洞及超过1000种设备的预置账号信息。
 
-- CVE-2020-2551
-- CVE-2020-2555
+- [CVE-2020-2551](WebLogic/CVE-2020-2555)
+- [CVE-2020-2555](WebLogic/CVE-2020-2555)
 - CVE-2020-1938 
 - CVE-2020-10189
+- [CVE-2020-7961](LiferayPortal/CVE-2020-7961)
 - CVE-2019-10758
-- CVE-2019-19781
+- [CVE-2019-19781](Citrix/CVE-2019-19781)
 - [CVE-2018-1000861](https://github.com/gobysec/GobyVuls/tree/master/Jenkins/CVE-2018-1000861)
 - [CVE-2018-7600](https://github.com/gobysec/GobyVuls/tree/master/Drupal/CVE-2018-7600)
 - CVE-2018-1297
 - [CVE-2017-5638](https://github.com/gobysec/GobyVuls/tree/master/Struts2/S2-046(CVE-2017-5638))
 - CVE-2017-5878
-- CVE-2017-1000353
+- [CVE-2017-1000353](Jenkins/CVE-2017-1000353)
 - CVE-2016-4437
 - [CVE-2016-3088](https://github.com/gobysec/GobyVuls/tree/master/ActiveMQ/CVE-2016-3088)
 - [CVE-2013-2251](https://github.com/gobysec/GobyVuls/tree/master/Struts2/S2-016(CVE-2013-2251))
