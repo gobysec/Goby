@@ -44,6 +44,7 @@ Goby目前是使用Go语言开发、采用Electron+VUE前端框架的绿色版�
 - [CVE-2020-7961](https://github.com/gobysec/GobyVuls/blob/master/LiferayPortal/CVE-2020-7961)
 - CVE-2019-10758
 - [CVE-2019-19781](https://github.com/gobysec/GobyVuls/blob/master/Citrix/CVE-2019-19781)
+- CVE-2019-3948
 - [CVE-2018-1000861](https://github.com/gobysec/GobyVuls/tree/master/Jenkins/CVE-2018-1000861)
 - [CVE-2018-7600](https://github.com/gobysec/GobyVuls/tree/master/Drupal/CVE-2018-7600)
 - CVE-2018-1297
