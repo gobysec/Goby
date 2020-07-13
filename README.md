@@ -47,4 +47,4 @@ Goby目前是使用Go语言开发、采用Electron+VUE前端框架的绿色版�
 如有问题可以在 GitHub 提 issue, 也可在下方的讨论组里
 1. GitHub issue: https://github.com/gobysec/Goby/issues
 2. Telegram: http://t.me/gobies
-3. 微信群: 加我的个人微信chenrong-1013，会把大家拉到Goby官方微信群。（群内福利：不定期更新内测版）
+3. 微信群: 加我的个人微信chenrong-1013，会把大家拉到Goby官方微信群。（群内福利：提前1个月享受版本更新）
