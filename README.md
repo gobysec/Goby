@@ -50,7 +50,7 @@ Goby目前是使用Go语言开发、采用Electron+VUE前端框架的绿色版�
 - [ThinkPHP5_RCE](https://github.com/gobysec/GobyVuls/tree/master/ThinkPHP/ThinkPHP5_RCE)
 持续更新中… 
 ### 0x004 问题
-有关Goby常见问题详情请参考：
+有关Goby常见问题详情请参考
 FAQ表：<a href="https://gobies.org/faq.html" target="_blank">https://gobies.org/faq.html</a>
 ### 0x005 Goby社区
 如有问题可以在 GitHub 提 issue, 也可在下方的讨论组里
