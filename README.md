@@ -51,6 +51,7 @@ Goby目前是使用Go语言开发、采用Electron+VUE前端框架的绿色版�
 持续更新中… 
 ### 0x004 问题
 有关Goby常见问题详情请参考：<a href="https://gobies.org/faq.html" target="_blank">FAQ表</a>
+FAQ表：<a href="https://gobies.org/faq.html" target="_blank">https://gobies.org/faq.html</a>
 ### 0x005 Goby社区
 如有问题可以在 GitHub 提 issue, 也可在下方的讨论组里
 1. GitHub issue: https://github.com/gobysec/Goby/issues
