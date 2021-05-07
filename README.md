@@ -55,8 +55,8 @@ Goby目前是使用Go语言开发、采用Electron+VUE前端框架的绿色版�
 FAQ表：<a href="https://gobies.org/faq.html" target="_blank">https://gobies.org/faq.html</a>
 ### 0x005 Goby社区
 - 贡献PoC
-  - 首选阅读[Goby 漏洞编写指南](https://github.com/gobysec/Goby/wiki/Vulnerability-writing-guide)
-  - 自定义PoC中 Query Rule [规范准则](https://github.com/gobysec/Goby/wiki/Query-Rule)
+  - 首选阅读[Goby 漏洞编写指南](https://github.com/gobysec/Goby/wiki/Vulnerability-writing-guide(%E6%BC%8F%E6%B4%9E%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97))
+  - 自定义PoC中 Query Rule [规范准则](https://github.com/gobysec/Goby/wiki/Query-Rule(Goby-Query-%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97))
 
 提交问题报错需求建议等请先务必阅读<a href="https://github.com/gobysec/Goby/blob/master/Feedback.md" target="_blank">提交问题行为准则</a>
 
