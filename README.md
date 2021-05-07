@@ -13,7 +13,7 @@ Goby目前是使用Go语言开发、采用Electron+VUE前端框架的绿色版�
 1.  cd /dev
 2.  sudo chown $USER:admin bp*
 ```
- 更多请查看 Goby Wiki https://github.com/gobysec/Goby/wiki
+  更多使用请查看 [Goby WiKi](https://github.com/gobysec/Goby/wiki)
 ### 0x003 预置数据说明
 **1. 规则库** 
 超过10万种规则识别引擎，硬件覆盖范围：网络设备，物联网设备，网络安全产品，办公设备等，软件覆盖范围：CRM，CMS，EMAIL，OA系统等。
