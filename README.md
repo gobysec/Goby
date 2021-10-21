@@ -1,28 +1,38 @@
 # Welcome to Goby
-Goby是一款新的网络安全测试工具，它能够针对一个目标企业梳理最全的攻击面信息，同时能进行高效、实战化漏洞扫描，并快速的从一个验证入口点，切换到横向。我们希望能够输出更具生命力的工具，能够对标黑客的实际能力，帮助企业来有效地理解和应对网络攻击。
+**Goby** is a new generation network security assessment tool. It can efficiently and practically scan vulnerabilities while sorting out the most complete attack surface information for a target enterprise. Goby can also quickly penetrate the company intranet based on a company's vulnerabilities exposed to the Internet.  We strive for Goby to become a more vital tool that can benchmark against hackers' actual attack methods and help companies effectively understand and respond to cyber-attacks. 
 ### 0x001 Demo
-![img](https://cn.gobies.org/static_front/img/scan.gif)
-### 0x002 下载并安装
-[Goby下载地址](https://cn.gobies.org/)   [FAQ](https://gobies.org/faq.html)
-Goby目前是使用Go语言开发、采用Electron+VUE前端框架的绿色版本，支持windows/MacOS/Linux，无需安装。因Goby基于网络扫描，所以使用前，请先赋予goby识别网卡的权限。方式如下：
-1. Windows用户 
-   [下载Npcap](https://nmap.org/npcap/dist/npcap-0.9983.exe)数据捕获包，安装完成后，启动goby。 
-2. MacOS用户 
-   执行以下命令：
+[![5s8l2F.gif](https://z3.ax1x.com/2021/10/21/5s8l2F.gif)](https://imgtu.com/i/5s8l2F)
+### 0x002 Download and install 
+  [Goby download link](https://gobies.org/)
+  [Goby FAQ](https://gobies.org/faq.html)
+  
+  Goby currently uses Golang  development, uses `Electron` and `VUE` as the front-end framework, supports windows, MacOS, and Linux without installation. Goby is based on network scanning, therefore permission is required to identify the NIC before using it.The installation methods of different platforms are as follows:
+
+1. Windows 
+   Download the [`Npcap`](https://nmap.org/npcap/dist/npcap-0.9995.exe) and install it.
+2. MacOS 
+   Run the following command：
+
 ```
 1.  cd /dev
 2.  sudo chown $USER:admin bp*
 ```
-  更多使用请查看 [Goby WiKi](https://github.com/gobysec/Goby/wiki)
-### 0x003 预置数据说明
-**1. 规则库** 
-超过10万种规则识别引擎，硬件覆盖范围：网络设备，物联网设备，网络安全产品，办公设备等，软件覆盖范围：CRM，CMS，EMAIL，OA系统等。
-**2. 协议** 
-超过200种协议识别引擎，覆盖网络协议，数据库协议，IoT协议，ICS协议等。
-**3. 端口** 
-除了常用端口，我们还根据安全实战场景进行了端口分组，包括企业、咖啡馆、酒店、机场、数据库、物联网、SCADA、ICS、后门检测等。
-**4. 漏洞及弱口令** 
-覆盖Weblogic，Tomcat等最严重漏洞及超过1000种设备的预置账号信息。
+   For more information, see [Goby WiKi](https://github.com/gobysec/Goby/wiki)
+
+### 0x003 Preset field description
+
+**1. Rule bases** 
+  Goby has built in more than 100,000 rule recognition engines. The coverage of hardware types includes `Network devices`, `IoT devices`, `Network Security products`, `office devices`, etc. The coverage of software types includes: `CRM`,`CMS`,`EMAIL`,`OA system`, etc.
+
+**2. Protocol** 
+  Goby has built in more than 200 protocol recognition engines, including: `Network protocols`, `Database protocols`, `IoT protocols` , `ICS protocols`, etc.
+
+**3. Port** 
+  In addition to common ports, Goby also groups ports based on security practices, including: `Enterprises`, `Cafes`, `Hotels`, `Airports`, `Databases`, `IoT`, `SCADA`, `ICS` and `Back door detection`.
+
+**4. Common vulnerabilities and weak passwords** 
+  Goby covers common critical vulnerabilities such as `Weblogic` and `Tomcat`, as well as preset account information of more than 1,000 devices.
+
 - [CVE-2020-2551](https://github.com/gobysec/GobyVuls/blob/master/WebLogic/CVE-2020-2555)
 - [CVE-2020-2555](https://github.com/gobysec/GobyVuls/blob/master/WebLogic/CVE-2020-2555)
 - CVE-2020-1938 
@@ -49,18 +59,25 @@ Goby目前是使用Go语言开发、采用Electron+VUE前端框架的绿色版�
 - CVE-2011-3556
 - [ThinkPHP2.1_RCE](https://github.com/gobysec/GobyVuls/tree/master/ThinkPHP/ThinkPHP2.1_RCE)
 - [ThinkPHP5_RCE](https://github.com/gobysec/GobyVuls/tree/master/ThinkPHP/ThinkPHP5_RCE)
-持续更新中… 
-### 0x004 问题
-有关Goby常见问题详情请参考
-FAQ表：<a href="https://gobies.org/faq.html" target="_blank">https://gobies.org/faq.html</a>
-### 0x005 Goby社区
-- 贡献PoC
-  - 首选阅读[Goby 漏洞编写指南](https://github.com/gobysec/Goby/wiki/Vulnerability-writing-guide(%E6%BC%8F%E6%B4%9E%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97))
-  - 自定义PoC中 Query Rule [规范准则](https://github.com/gobysec/Goby/wiki/Query-Rule(Goby-Query-%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97))
+- Constantly updating...… 
 
-提交问题报错需求建议等请先务必阅读<a href="https://github.com/gobysec/Goby/blob/master/Feedback.md" target="_blank">提交问题行为准则</a>
+### 0x004 FAQ
 
-如有问题可以在 GitHub 提 issue, 也可在下方的讨论组里
+  For more information about Goby FAQ, please visit [here](https://gobies.org/faq.html) 
+
+### 0x005 Goby community 
+
+- Contribute POC
+
+  - First need to read [Goscanner_POC&#x2f;EXP _Writing_Manual](https://github.com/gobysec/Goby/wiki/Vulnerability-writing-guide(%E6%BC%8F%E6%B4%9E%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97))
+  - Then read [Custom PoC Query Rule](https://github.com/gobysec/Goby/wiki/Query-Rule(Goby-Query-%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97))
+
+  Please read [here](https://github.com/gobysec/Goby/blob/master/Feedback.md) first if you submit an error or demand suggestion.
+
+If you have a functional type of issue, you can raise an issue on GitHub or in the discussion group below:
+
 1. GitHub issue: https://github.com/gobysec/Goby/issues
-2. Telegram: http://t.me/gobies
-3. 微信群: 加我的个人微信：gobyteam，会把大家拉到Goby官方微信群。（群内福利：提前1个月享受版本更新）
+2. Telegram Group: http://t.me/gobies (Group benefits: enjoy the version update 1 month in advance) 
+3. Telegram Channel: https://t.me/joinchat/ENkApMqOonRhZjFl (Channel benefits: enjoy the version update 1 month in advance) 
+4. WeChat Group: First add my personal WeChat: **gobyteam**, I will add everyone to the official WeChat group of Goby. (Group benefits: enjoy the version update 1 month in advance) 
+
