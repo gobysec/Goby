@@ -1,7 +1,7 @@
 # Welcome to Goby
 **Goby** is a new generation network security assessment tool. It can efficiently and practically scan vulnerabilities while sorting out the most complete attack surface information for a target enterprise. Goby can also quickly penetrate the company intranet based on a company's vulnerabilities exposed to the Internet.  We strive for Goby to become a more vital tool that can benchmark against hackers' actual attack methods and help companies effectively understand and respond to cyber-attacks. 
 
-[Goby Official URL](gobies.org)
+[Goby Official URL](https://gobies.org/)
 
 ### 0x001 Demo
 [![5s8l2F.gif](https://z3.ax1x.com/2021/10/21/5s8l2F.gif)](https://imgtu.com/i/5s8l2F)
